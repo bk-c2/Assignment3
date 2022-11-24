@@ -9,4 +9,4 @@ metadata:
         storage: 4Gi
      accessModes:
         - ReadWriteOnce
-        
+    volumeMode: Filesystem    
