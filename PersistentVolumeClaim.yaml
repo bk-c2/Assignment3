@@ -7,4 +7,6 @@ metadata:
     resources:
       requests:
         storage: 4Gi
+     accessModes:
+        - ReadWriteOnce
         
