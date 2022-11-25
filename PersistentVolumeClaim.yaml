@@ -1,12 +1,12 @@
 apiVersion: v1
-kind: PresistentVolumeClaim
+kind: PersistentVolumeClaim
 metadata:
   name: mysql-pvc
-  spec:
-    storageClassName: standard
-    resources:
-      requests:
-        storage: 4Gi
-     accessModes:
-        - ReadWriteOnce
-    volumeMode: Filesystem    
+spec:
+  storageClassName: standard
+  resources:
+    requests:
+      storage: 4Gi
+  accessModes:
+  - ReadWriteOnce
+  volumeMode: Filesystem  
