@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: employeesapp
-        image: 360201675659.dkr.ecr.us-east-1.amazonaws.com/my_app:v0.1
+        image: 360201675659.dkr.ecr.us-east-1.amazonaws.com/my_app:v0.2
         ports:
         - containerPort: 8080
           protocol: TCP
