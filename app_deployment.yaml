@@ -22,7 +22,7 @@ spec:
           protocol: TCP
         env:
         - name: DBHOST
-          value : 10.100.0.131
+          value : "mysqlservice"
         - name: DBUSER
           value : root
         - name: DBPWD
