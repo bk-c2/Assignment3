@@ -25,7 +25,7 @@ spec:
           protocol: TCP
         volumeMounts:
         - name: mysql-pvc
-          mountPath: /var/lib/mysql
+          mountPath: /tmp/mysql/data
       volumes:
       - name: mysql-pvc
         persistentVolumeClaim: 
