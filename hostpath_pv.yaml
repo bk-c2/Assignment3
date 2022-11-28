@@ -8,8 +8,8 @@ spec:
   accessModes:
   - ReadWriteOnce
   - ReadOnlyMany
-  storageClassName: localstorage
+  storageClassName: local
   persistentVolumeReclaimPolicy: Retain
   hostPath:
-    path: /tmp/mysql
+    path: /tmp/mysql/data
   
