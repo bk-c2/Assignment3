@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: mysql-pvc-local
 spec:
-  storageClassName: localstorage
+  storageClassName: local
   resources:
     requests:
       storage: 1Gi
